@@ -8,6 +8,7 @@ const Animal = ({ animal, onRemove }) => {
         <Image
           source={{uri: animal.capa}}
           style={styles.animal}
+          resizeMode='cover'
         />
         <Text style={styles.textocard}> {animal.nome}</Text>
         <Text style={styles.textocard}> {animal.raca}</Text>
